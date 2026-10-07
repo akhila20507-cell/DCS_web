@@ -34,3 +34,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+const searchBtn = document.getElementById("searchBtn");
+const accountBtn = document.getElementById("accountBtn");
+const cartBtn = document.getElementById("cartBtn");
+
+searchBtn.addEventListener("click", function () {
+    alert("Search feature coming soon!");
+});
+
+accountBtn.addEventListener("click", function () {
+    alert("Account feature coming soon!");
+});
+
+cartBtn.addEventListener("click", function () {
+    alert("Your cart currently has 2 items.");
+});
